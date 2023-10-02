@@ -1,7 +1,9 @@
 repeat task.wait() until game:IsLoaded()
 getgenv().autofarm = true
+
 AttackRange = 55
 Instakill = true
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
